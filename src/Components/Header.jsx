@@ -3,8 +3,6 @@ import React from "react";
 
 export default function Header(){
     return(
-     <div className="header">
-       Manage Contact:
-     </div>
+     <div className="header">Manage Contact</div>
     );
 }

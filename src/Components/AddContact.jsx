@@ -9,7 +9,7 @@ export default function AddContact({addContact}){
         else
             setContactData({...contactData, email: e.target.value})
     };
-   const handleAdd = () =>{
+   const handleAdd=()=>{
         if(contactData.name === "" || contactData.email === ""){
             alert('Please fill all the data');
             return
