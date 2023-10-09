@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 export default function AddContact({addContact}){
     const [contactData, setContactData] = useState({name:"", email:""});
-
     const handleChange=(e)=>{
         if(e.target.name === "name")
             setContactData({...contactData, name: e.target.value})
